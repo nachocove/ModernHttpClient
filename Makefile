@@ -24,7 +24,7 @@ ModernHttpClient.Android.dll: OkHttp.dll
 ModernHttpClient.iOS.dll:
 	$(MDTOOL) build -c:Release ./src/ModernHttpClient/ModernHttpClient.iOS.csproj
 	mkdir -p ./build/MonoTouch
-	mv ./src/ModernHttpClient/bin/Release/MonoTouch/* ./build/MonoTouch
+	mv ./src/ModernHttpClient/bin/Release/Monotouch/* ./build/MonoTouch
 
 ModernHttpClient.iOS64.dll:
 	$(MDTOOL) build -c:Release ./src/ModernHttpClient/ModernHttpClient.iOS64.csproj
